@@ -2,6 +2,7 @@ select *
 from PortfolioProject..Covid_Deaths
 where continent is not null
 
+-- convert data type
 alter table PortfolioProject..Covid_Deaths
 ALTER column total_cases float;
 
